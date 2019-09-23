@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Laggy's Slither Mod", 
+    "content_scripts": [ {
+      "js": ["slither.io.js" ],
+      "matches": [ "*://slither.io/", "*://slither.io/?*" ]
+    } ],
+    "permissions": [ "webRequest", "*://slither.io/", "*://slither.io/?*" ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "0.1",
+    "web_accessible_resources": ["jquery.js","script.js" ]
+}
