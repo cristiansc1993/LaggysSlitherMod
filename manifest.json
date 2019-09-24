@@ -1,5 +1,23 @@
 {
+    "author": "[BAT] Laggy af",
+    "background": {
+      "scripts": [ "background.js" ]
+    },
+    "description": "Laggy's awesome slither mod!",
+    "name": "Laggy's Slither Mod",
+    "short_name": "Laggy's Mod",
     "manifest_version": 2,
+    "browser_action": {
+      "default_icon": "/img/icon128.png",
+      "default_title": "Play"
+    },
+   "icons": {
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "48": "img/icon48.png",
+      "64": "img/icon64.png",
+      "128": "img/icon128.png"
+   },
     "name": "Laggy's Slither Mod", 
     "content_scripts": [ {
       "js": ["slither.io.js" ],
